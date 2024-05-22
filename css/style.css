@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+header {
+    margin: 2rem auto;
+    max-width: 800px;
+}
+
+header>h1,
+h4 {
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+main {
+    background-color: white;
+}
+
+.header {
+    margin: 0 auto;
+    width: 78%;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.container a button {
+    width: 150px;
+    padding: 0.5rem 0;
+    color: #148a14;
+    background-color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.container a:hover button {
+    color: white;
+    background-color: #148a14;
+    transition: all 0.3s;
+}
+
+.nav,
+.nav-2 {
+    max-width: 500px;
+    margin: 2.1rem auto;
+    border-left: 1px solid #148a14;
+    border-right: 1px solid #148a14;
+    border-bottom: 1px solid #148a14;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.nav ul,
+.nav-2 ul {
+    list-style: none;
+}
+
+.nav ul li h1,
+.nav-2 ul li h1 {
+    color: white;
+    background-color: #148a14;
+    padding: 1.2rem 0;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+div {
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+}
+
+.segitiga,
+.segitiga-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+    margin-left: 0.5rem;
+    width: 250px;
+    height: 400px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    border-right: 1px solid #148a14;
+}
+
+.segitiga img,
+.segitiga-2 img {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.segitiga p,
+.segitiga-2 p {
+    margin: 0.2vh 0.8rem;
+    font-size: 0.7rem;
+}
+
+.luas-segitiga,
+.keliling-segitiga {
+    padding-top: 0.5rem;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.luas-segitiga h1,
+.keliling-segitiga h1 {
+    margin: -1rem 0 0 0;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.luas-segitiga ul li,
+.keliling-segitiga ul li {
+    margin: 0.5rem 0;
+    padding-left: 1rem;
+    font-size: 0.7rem;
+}
+
+.luas-segitiga input,
+.keliling-segitiga input {
+    display: block;
+    margin: 1rem auto;
+    width: 90%;
+    padding: 0.5rem;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 1rem auto;
+}
+
+.button-container button {
+    width: 48%;
+    padding: 0.3rem 0.9rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#btn-luas {
+    background-color: #148a14;
+    color: white;
+}
+
+.reset {
+    background-color: rgb(80, 71, 199);
+    color: white;
+}
+
+.button-container button:hover {
+    opacity: 0.8;
+}
